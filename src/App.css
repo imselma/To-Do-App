@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+.create-button{
+  background-color: blue;
+  color: white;
+  margin-left: 10px;
+
+}
+.create-button:disabled{
+  background-color: gray;
+}
+.create-button:hover{
+  cursor:pointer;
+}
+
+.todo_wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.delete-button {
+  background-color: red;
+  color: white;
+  margin-left: 10px;
+
+}
