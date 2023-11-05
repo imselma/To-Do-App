@@ -30,4 +30,15 @@ Next we need to make the inputed tasks to display on the screen and to kave a de
   - display: flex -> to set all components on the same level.
   - justify-conetnt -> where to place the content regarding the space and axis.
 
+  //ovdje ima event definisan, a u eventu ima objekat atrget koji ima property value
+
+  //Za spremanje liste, kada izadjemo iz app-a, koristimo local storage. Local storage drzi sve spaseno u nasem browseru i kada zatvorimo app. 
+  Local storage se nalazi -> desni klik na app -> inspect ->  application -> storage
+  Local storage prima samo string 
+  - JSON.stringify(newToDos) -> pretvara sve u string jer local storage prima samo string variables.
+
+  - const TODO_KEY = "toDos"; -> konstante se uvijek pisu velikim slovom.
+UseEffect prima dva parametra. Prvi je call back funkcija, sta ce uraditi taj useEffect kada se okine, a druga je state variabla na koju ce se okinuti. Ako je prazan array onda se okida na jendo ucitavanje.
+
+UseEffect se dodaje uvijek nakon svih funkcija!
 
